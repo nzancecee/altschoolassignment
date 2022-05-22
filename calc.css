@@ -1,0 +1,36 @@
+.content_table{
+  
+    margin:25px 0;
+    font-size: 1cm;
+    min-width: 400px;
+    width: 50%;
+    
+
+}
+#t1{
+    background-color: gray;
+ width: 2in;
+}
+#t2{
+    background-color: gray;
+    border: 2px;
+}
+#t3{
+    background-color: gray;
+    border: 2px;
+}
+#t4{
+    background-color: gray;
+    border: 2px;
+}
+#t5{
+    background-color: gray;
+    border: 2px;
+}
+.calc input {
+    font-size: 1cm;
+    width:50%\
+    height
+}
+
+

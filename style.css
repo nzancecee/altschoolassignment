@@ -1,0 +1,128 @@
+#list_one {
+list-style-type: none;
+padding: 0px;
+margin: 0px;
+overflow:hidden;
+background-color:#ad6828 ;
+}
+li a{
+    float: left ;
+    display:block;
+    color: #000;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-right:1px solid ;
+    min-width: 60px;
+}
+li a:hover{
+    background-color:#6e3e13 ;
+}
+body {
+    font-size: 25px;
+    background-color: #ebe8dd ;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    float: right;
+  border-radius: 100px;
+    margin-right: 100px;}
+
+.contact{
+    background-color: white;
+    width:70%;
+    padding: 20px;
+   margin: auto;
+
+   
+}
+
+.contact form{
+    text-align: left;
+}
+.contact input{
+    width:30% fit-content;
+    font-size: 20px;
+}
+.register{
+    background-color: white;
+    width: 70% ;
+    height:fit-content;
+    padding: 20px;
+
+}
+
+
+.register input{
+    width:30%;
+    font-size: 20px;
+}
+.register select{
+    width:30%;
+    font-size: 20px;
+}
+
+
+.login{
+   width: 400px;
+   background:white;
+   padding: 20px;
+   margin:8% auto 0;
+   text-align: center;
+
+    
+}
+.login h1{
+    color:rgb(14, 25, 129);
+    margin-bottom: 30px;
+}
+.button{
+    color:white;
+    width: 30%;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline:none;
+    background-color: #6e3e13;
+    cursor: pointer;
+
+}
+.button:hover{
+   background-color:#ad6828;
+
+}
+#username1{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 70%;
+    border: 1px solid ;
+    outline:none;
+
+}
+#password1{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 70%;
+    border: 1px solid ;
+    outline:none;
+
+}
+
+
+
+
+    
+    
+
+    
+
+    
+
+
+
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <ul id="list_one">
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="register.html">Register</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+    <div class="register">
+      <form action="">
+        <label for="first_name"> First Name: </label>
+        <input
+          type="text"
+          id="first_name"
+          name="first_name"
+          placeholder="Spongebob"
+        />
+        <br /><br />
+        <label for="last_name">Last Name:</label>
+        <input
+          type="text"
+          id="last_name"
+          name="last_name"
+          placeholder="Squarepants"
+        />
+        <br /><br />
+        <label for="phone_number">Phone Number:</label>
+        <input type="tel" id="phone_number" name="phone_number" />
+        <br /><br />
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender">
+          <option value="gender">Gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="prefer_not_to_say">Prefer not to say</option>
+        </select>
+        <br /><br />
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country" />
+        <br /><br />
+        <label for="state/province">State/Province:</label>
+        <input type="text" id="state/province" name="state/province" />
+        <br /><br />
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" />
+        <br /><br />
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" minlength="8" /> min
+        8 chatracters <br /><br />
+        <label for="confirm_password">Confirm Password:</label>
+        <input
+          type="password"
+          id="confirm_password"
+          name="confirm_password"
+          minlength="8"
+        />
+        min 8 characters
+        <br /><br />
+        <input class="button" type="button" value="Submit">
+      </form>
+    </div>
+  </body>
+</html>

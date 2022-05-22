@@ -1,0 +1,36 @@
+body{
+    background-color: white;
+}
+.content_table{
+    
+    background-color: #6e3e13;
+    width:330px;
+    height:370px;
+    
+    border-radius: 2%;
+}
+
+#num{
+ text-align: center;
+    position: relative;
+    left: px;
+    top: 5px;
+    border: 0;
+    color: white;
+    background-color:black;
+    width: 78px;
+    height: 58px;
+    border-radius: 50%;
+    font-size: 30px;
+}
+#num:hover{
+    background-color: #ad6828;
+}
+#display{
+    position: absolute;
+    background-color: #6e3e13;
+    font-size: 25px;
+    margin-top:-50px;
+}
+
+
